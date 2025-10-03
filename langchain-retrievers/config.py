@@ -13,7 +13,7 @@ DATA_DIR = os.path.join(PROJECT_ROOT, "data")
 # Model paths (update these with your actual paths)
 # LLM_MODEL_PATH = "meta-llama/Llama-3.2-3B"  # e.g., "microsoft/DialoGPT-medium"
 EMBEDDING_MODEL_PATH = "sentence-transformers/all-MiniLM-L6-v2"  # e.g., "sentence-transformers/all-MiniLM-L6-v2"
-EMBEDDING_MODEL_CACHE = "/home/erfan/TORUS/personal_git/lc_retrievers/models"
+EMBEDDING_MODEL_CACHE = "path/to/your/pdf"
 # Data paths (update these with your actual paths)
 PDF_PATH = "path/to/your/pdf_file.pdf"  # e.g., "https://huggingface.co/datasets/example-dataset"
 
