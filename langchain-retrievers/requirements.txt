@@ -9,7 +9,7 @@ langchain_openai
 # Vector stores
 chromadb
 faiss-cpu
-
+faiss-gpu
 # Embeddings
 sentence-transformers
 huggingface-hub
@@ -17,6 +17,7 @@ huggingface-hub
 # Document loaders
 pypdf
 wikipedia
+datasets==3.6.0
 
 # LLM providers
 openai
@@ -27,5 +28,6 @@ requests
 
 # Core dependencies 
 numpy
+seaborn
 torch==2.1.0  # Required by sentence-transformers
 transformers==4.57.0  # Required by langchain-huggingface
